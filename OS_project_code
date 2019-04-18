@@ -9,12 +9,15 @@ int main()
  printf("enter process id\n");
    for(i=0;i<n;i++)
        scanf("%d",&p[i]);
-       printf("enter arrival time\n");
+       
+ printf("enter arrival time\n");
    for(i=0;i<n;i++)
        scanf("%d",&a[i]);
-       printf("enter burst time\n");
+       
+ printf("enter burst time\n");
    for(i=0;i<n;i++)
-       scanf("%d",&b[i]); 
+       scanf("%d",&b[i]);
+       
    for(i=0;i<n;i++)
        x[i]=b[i];
        b[9]=-999;

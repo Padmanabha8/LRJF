@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main() 
 {
- int a[10],p[10],b[10],x[10],i,j,largest,count=0,time,n;
+ int a[10],p[10],b[10],x[10],i,largest,count=0,time,n;
  double avg=0,tt=0,end;
  printf("enter the number of Processes:\n");
  scanf("%d",&n); 
